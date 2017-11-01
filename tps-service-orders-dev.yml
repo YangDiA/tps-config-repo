@@ -8,8 +8,6 @@ spring:
   aop:
     proxy-target-class: true
 
-server:
-  port: 8888
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
