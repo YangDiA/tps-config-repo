@@ -4,9 +4,12 @@ spring:
     username: tps138dev
     password: F52o0QJCg8@L
     driver-class-name: com.mysql.jdbc.Driver
-
   aop:
     proxy-target-class: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.1.1.113:8761/eureka/,http://10.1.1.115:8761/eureka/
 
 
 mybatis:
