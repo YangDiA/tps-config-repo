@@ -10,7 +10,7 @@ eureka:
   instance:
     preferIpAddress: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-    leaseRenewalIntervalInSeconds: 1
+    leaseRenewalIntervalInSeconds: 2
     leaseExpirationDurationInSeconds: 2
   client:
     registryFetchIntervalSeconds: 5
